@@ -1,0 +1,5 @@
+films\Controller\test.class
+films\Controller\APIClient.class
+films\Persistence\APIPersistence.class
+films\Service\APIService.class
+films\Controller\HttpServer.class

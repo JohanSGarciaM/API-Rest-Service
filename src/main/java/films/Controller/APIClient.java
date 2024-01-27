@@ -11,7 +11,6 @@ import java.net.URL;
  * Class which request to API
  * @author Johan Garcia
  * @version 24/01/2024/1
- * @see <a href = "http://www.omdbapi.com" /> omdbapi.com </a>
  */
 
 public class APIClient {

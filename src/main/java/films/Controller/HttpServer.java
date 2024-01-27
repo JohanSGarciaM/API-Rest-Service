@@ -43,7 +43,6 @@ public class HttpServer {
             String path = null;
 
             String name = "";
-            String name1 = "";
 
             while ((inputLine = in.readLine()) != null) {
                 System.out.println("Received: " + inputLine);
@@ -52,7 +51,7 @@ public class HttpServer {
                     path = inputLine.split(" ")[1];
                 }
                 if (inputLine.contains("GET") && inputLine.contains("=")){
-                    name1 = inputLine.split("=")[1].split(" ")[0];
+                    name = inputLine.split("=")[1].split(" ")[0];
                 }
                 if (!in.ready()) {
                     break;
@@ -118,9 +117,10 @@ public class HttpServer {
                 "    <body>\n" +
                 "        <h1>APIRest</h1>\n" +
                 "        <h2>Best source of movie information</h2>\n" +
+                "        <h3> Please introduce the Title of the movie you want to search for</h3>" +
                 "        <form action=\"/movie\">\n" +
                 "            <label for=\"name\">Name:</label><br>\n" +
-                "            <input type=\"text\" id=\"name\" name=\"name\" value=\"Avengers\"><br><br>\n" +
+                "            <input type=\"text\" id=\"name\" name=\"name\"><br><br>\n" +
                 "            <input type=\"button\" value=\"Search\" onclick=\"loadGetMsg()\">\n" +
                 "        </form> \n" +
                 "        <div id=\"getrespmsg\"></div>\n" +
@@ -141,5 +141,5 @@ public class HttpServer {
                 "    </body>\n" +
                 "</html>";
         return response;
-    } // Method's Finish
-} // Class's Finish
+    }
+}

@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-26T19:02:57 COT" name="Surefire suite" finished-at="2024-01-26T19:02:57 COT" duration-ms="40">
+  <suite started-at="2024-01-26T21:33:02 COT" name="Surefire suite" finished-at="2024-01-26T21:33:02 COT" duration-ms="44">
     <groups>
     </groups>
-    <test started-at="2024-01-26T19:02:57 COT" name="Surefire test" finished-at="2024-01-26T19:02:57 COT" duration-ms="40">
+    <test started-at="2024-01-26T21:33:02 COT" name="Surefire test" finished-at="2024-01-26T21:33:02 COT" duration-ms="44">
       <class name="APIRestServiceTest">
-        <test-method signature="storedinCache_Should_ReturnFalse_When_MovieNotInCache()" started-at="2024-01-26T19:02:57 COT" name="storedinCache_Should_ReturnFalse_When_MovieNotInCache" finished-at="2024-01-26T19:02:57 COT" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storedinCache_Should_ReturnFalse_When_MovieNotInCache -->
-        <test-method signature="getMovie_Should_ShowMovieInformation_When_MovieInCache()" started-at="2024-01-26T19:02:57 COT" name="getMovie_Should_ShowMovieInformation_When_MovieInCache" finished-at="2024-01-26T19:02:57 COT" duration-ms="11" status="PASS">
+        <test-method signature="getMovie_Should_ShowMovieInformation_When_MovieInCache()" started-at="2024-01-26T21:33:02 COT" name="getMovie_Should_ShowMovieInformation_When_MovieInCache" finished-at="2024-01-26T21:33:02 COT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMovie_Should_ShowMovieInformation_When_MovieInCache -->
+        <test-method signature="storedinCache_Should_ReturnFalse_When_MovieNotInCache()" started-at="2024-01-26T21:33:02 COT" name="storedinCache_Should_ReturnFalse_When_MovieNotInCache" finished-at="2024-01-26T21:33:02 COT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storedinCache_Should_ReturnFalse_When_MovieNotInCache -->
       </class> <!-- APIRestServiceTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

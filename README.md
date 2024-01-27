@@ -36,11 +36,11 @@ mvn javadoc:javadoc
 
 Una vez enviada la solicitud a la API externa, y dado el formato html para recibir la información, vamos a recibir una página que funciona como buscador para poder definir cual será la pelicula que deseamos investigar.
 
-![](/apirest/resources/buscador.jpg)
+![](/resources/buscador.jpg)
 
 En el campo de texto debemos introducir el título de la pelicual que deseamos buscar y luego dar click en el botón "search" para así hacer la solicitud al API de la información de la película correspondiente.
 
-![](/apirest/resources/shrek.jpg)
+![](/resources/shrek.jpg)
 
 
 ##Arquitectura
@@ -54,7 +54,7 @@ Las cuatro partes implicadas en el proyecto están definidas de la siguiente man
 - **External Rest API:** Esta API es la estipulada en el enunciado del taller con la que vamos a trabajar, para tener acceso a esta fue necesario solicitar una llave y así poder tener acceso a la información del catálogo de peliculas que esta brinda.
 - **Concurrent Java Test Client:** Esta es la parte del proyecto que se encarga de realizar pruebas a la funcionalidad del código.
 
-![](/apirest/resources/architecture.png)
+![](/resources/architecture.png)
 
 
 
